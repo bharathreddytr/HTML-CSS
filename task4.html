@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task4</title>
+    <style>
+  body {
+    height: 100vh;
+    background: linear-gradient(to right, pink, orange);
+  }
+  .main {
+    background-color: gray;
+    padding: 25px;
+  }
+
+  .sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  .li {
+    display: inline;
+    margin-left: 60px;
+  }
+
+  li a {
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  li {
+    font-size: 25px;
+    list-style: none;
+  }
+
+  .cla a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+  }
+
+  .small a {
+    text-decoration: none;
+    color: #0077cc;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+
+  .small a:hover {
+    color: #004c99;
+  }
+</style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub">
+          <div class="logo"><a href="#">My Academics</a></div>
+          <ul class="cla">
+            <li class="li"><a href="#">Home</a></li>
+             <li class="li"><a href="#">About</a></li>
+             <li class="li"><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h2>List of Departments</h2>
+        <ol style="padding-left: 20px;">
+          <li>
+            <strong class="big">Arts</strong>
+            <ul class="cla">
+              <li><a href="https://www.coursera.org/courses?query=art" class="small" target="_blank" >English</a></li>
+              <li><a href="#" class="small">Sociology</a></li>
+            </ul>
+          </li>
+          <li>
+            <strong class="big">Science</strong>
+            <ul class="cla">
+              <li><a href="#" class="small">Mathematics</a></li>
+              <li><a href="#" class="small">Computer Science</a></li>
+            </ul>
+          </li>
+          <li>
+            <strong class="big">Commerce</strong>
+            <ul class="cla">
+              <li><a href="#" class="small">Company Secretary</a></li>
+              <li><a href="#" class="small">Bachelor of Management</a></li>
+            </ul>
+          </li>
+        </ol>
+      </div>    
+</body>
+</html>

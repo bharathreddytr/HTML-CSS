@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task10</title>
+    <style>
+          .container {
+      display: flex;
+      align-items: center;
+      gap: 150px;
+      margin: 50px;
+    }
+    .left-img-wrapper {
+      width: 80px; 
+      height: 200px;
+      overflow: hidden;
+    }
+    .left-img {
+      height: 100%;
+      object-fit: cover;
+    }
+    .blue-box {
+      width: 150px;
+      height: 200px;
+      background-color: #00bfff;
+    }
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 10px;
+  margin: 50px;
+}
+
+.grid-item {
+  background-color: #7d7d7d;
+  width: 100px;
+  height: 100px;
+  overflow: hidden; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+    </style>
+</head>
+<body>
+    <h2>1.half image and blue box</h2>
+  <div class="container">
+    <div class="left-img-wrapper">
+      <img src="https://cdn.siasat.com/wp-content/uploads/2023/10/salaar-rights.jpg" alt="Salaar Image" class="left-img">
+    </div>
+    <div class="blue-box"></div>
+  </div>
+  
+  <h2>2.images in 8 divs</h2>
+  <div class="grid-container">
+  <div class="grid-item"><img src="https://cdn.siasat.com/wp-content/uploads/2023/10/salaar-rights.jpg"></div>
+  <div class="grid-item"><img src="https://cdn.siasat.com/wp-content/uploads/2023/10/salaar-rights.jpg"></div>
+  <div class="grid-item"><img src="https://cdn.siasat.com/wp-content/uploads/2023/10/salaar-rights.jpg"></div>
+  <div class="grid-item"><img src="https://cdn.siasat.com/wp-content/uploads/2023/10/salaar-rights.jpg"></div>
+  <div class="grid-item"><img src="https://cdn.siasat.com/wp-content/uploads/2023/10/salaar-rights.jpg"></div>
+  <div class="grid-item"><img src="https://cdn.siasat.com/wp-content/uploads/2023/10/salaar-rights.jpg"></div>
+  <div class="grid-item"><img src="https://cdn.siasat.com/wp-content/uploads/2023/10/salaar-rights.jpg"></div>
+  <div class="grid-item"><img src="https://cdn.siasat.com/wp-content/uploads/2023/10/salaar-rights.jpg"></div>
+</div>
+
+
+
+</body>
+</html>
